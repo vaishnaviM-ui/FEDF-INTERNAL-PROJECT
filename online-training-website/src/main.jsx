@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import {
   CourseProvider
 } from "./context/CourseContext";
@@ -16,7 +16,7 @@ ReactDOM.createRoot(
 
   <React.StrictMode>
 
-    <BrowserRouter>
+    <HashRouter>
 
       <AuthProvider>
 
@@ -28,7 +28,7 @@ ReactDOM.createRoot(
 
       </AuthProvider>
 
-    </BrowserRouter>
+    </HashRouter>
 
   </React.StrictMode>
 );
