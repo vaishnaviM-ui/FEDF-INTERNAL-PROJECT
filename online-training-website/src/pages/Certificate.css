@@ -1,0 +1,110 @@
+.certificate-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#e2e8f0;
+  padding:30px;
+}
+
+.certificate{
+  width:900px;
+  background:white;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.certificate-border{
+  border:10px solid #2563eb;
+  padding:50px;
+  text-align:center;
+  border-radius:10px;
+}
+
+.certificate-org{
+  font-size:28px;
+  color:#2563eb;
+  margin-bottom:20px;
+  letter-spacing:2px;
+}
+
+.certificate-title{
+  font-size:50px;
+  margin-bottom:25px;
+  color:#0f172a;
+  font-family:Georgia, serif;
+}
+
+.certificate-text{
+  font-size:20px;
+  color:#475569;
+  margin-bottom:20px;
+}
+
+.student-name{
+  font-size:45px;
+  color:#1d4ed8;
+  margin:25px 0;
+  font-family:cursive;
+}
+
+.course-name{
+  font-size:30px;
+  margin-top:20px;
+  color:#0f172a;
+}
+
+.certificate-date{
+  margin-top:30px;
+  font-size:18px;
+}
+
+.certificate-footer{
+  display:flex;
+  justify-content:space-between;
+  margin-top:60px;
+  gap:40px;
+}
+
+.certificate-footer div{
+  width:250px;
+}
+
+.certificate-footer hr{
+  border:1px solid black;
+  margin-bottom:10px;
+}
+
+.download-btn{
+  margin-top:40px;
+  padding:14px 30px;
+  border:none;
+  background:#2563eb;
+  color:white;
+  border-radius:8px;
+  font-size:18px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.download-btn:hover{
+  background:#1d4ed8;
+  transform:scale(1.05);
+}
+
+.certificate-badge{
+  display:inline-block;
+
+  background:#f59e0b;
+
+  color:white;
+
+  padding:10px 20px;
+
+  border-radius:30px;
+
+  font-weight:bold;
+
+  margin-bottom:20px;
+}
